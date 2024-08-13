@@ -1,51 +1,10 @@
 # Phinger Cursors
 
-Say hello to your new cursor theme. Phinger Cursors is most likely the most over engineered cursor theme out there.
+Say hello to your new cursor theme. Phinger Cursors is most likely the most over engineered cursor theme out there. Now in catppuccin mocha.
 
 ![preview](assets/preview.png)
 
 ## How to install
-
-### Arch Linux
-
-I'm maintaining [phinger-cursors](https://aur.archlinux.org/packages/phinger-cursors) in the Arch User Repository. You can install it with your favorite AUR helper:
-
-```sh
-paru -S phinger-cursors
-```
-
-> [!NOTE]
-> Please let me know if you want to maintain this package in the official Arch Linux repositories, so that I can update the instructions here.
-
-### Ubuntu
-
-Install the `phinnger-cursor-theme` from the Ubuntu repositories (thanks to @eeickmeyer):
-
-```sh
-apt-get update
-apt-get install phinger-cursor-theme
-```
-
-### NixOS
-
-You can install the `phinger-cursors` package (thanks to @moni-dz) from the NixOS repositories by adding it to your `configuration.nix`:
-
-```nix
-environment.systemPackages = with pkgs; [
-  phinger-cursors
-];
-```
-
-Or use it in your home-manager configuration:
-
-```nix
-home.pointerCursor = {
-  name = "phinger-cursors-light";
-  package = pkgs.phinger-cursors;
-  size = 32;
-  gtk.enable = true;
-};
-```
 
 ### Manually
 
