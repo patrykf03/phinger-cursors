@@ -18,8 +18,8 @@ jobs:
         with:
           access_token: ${{ secrets.FIGMA_ACCESS_TOKEN }}
           file_key: ${{ secrets.FIGMA_FILE_KEY }}
-          theme_name: Phinger Cursors
-          theme_author: Philipp Schaffrath (phisch)
+          theme_name: Phinger Cursors Catppuccin
+          theme_author: Philipp Schaffrath (phisch) & Pat
           theme_comment: Most likely the most over engineered cursor theme.
           output_directory: ${{ env.EXPORT_DIRECTORY }}
       - name: Replace theme
